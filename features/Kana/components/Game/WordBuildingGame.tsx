@@ -442,14 +442,14 @@ const WordBuildingGame = ({
       {/* Bottom Bar */}
       <div
         className={clsx(
-          'w-[100vw]',
+          'right-0 left-0 w-full',
           'border-t-2 border-[var(--border-color)] bg-[var(--card-color)]',
-          'absolute bottom-0 z-10 px-2 py-4 md:bottom-6 md:px-12 md:py-10',
+          'absolute bottom-0 z-10 px-2 py-2 sm:py-3 md:bottom-6 md:px-12 md:py-4',
           'flex flex-row items-center justify-center'
         )}
       >
         {/* Left Container: 50% width, aligned right */}
-        <div className='flex w-1/2 items-center justify-end pr-3 md:pr-6'>
+        <div className='flex w-1/2 items-center justify-center'>
           <div
             className={clsx(
               'flex items-center gap-2 transition-all duration-500 sm:gap-3 md:gap-4',
@@ -484,12 +484,12 @@ const WordBuildingGame = ({
         </div>
 
         {/* Right Container: 50% width, aligned left */}
-        <div className='flex w-1/2 items-center justify-start pl-3 md:pl-6'>
+        <div className='flex w-1/2 items-center justify-center'>
           <ActionButton
             ref={buttonRef}
             borderBottomThickness={12}
             borderRadius='3xl'
-            className='w-auto min-w-[7rem] px-6 py-2.5 text-lg font-medium sm:min-w-[14rem] sm:px-16 sm:py-4 sm:text-2xl'
+            className='w-auto px-6 py-2.5 text-lg font-medium sm:px-12 sm:py-3 sm:text-xl'
             onClick={showContinue ? handleContinue : handleCheck}
             disabled={!canCheck && !showContinue}
           >
@@ -499,7 +499,7 @@ const WordBuildingGame = ({
       </div>
 
       {/* Spacer */}
-      <div className='h-40' />
+      <div className='h-32' />
     </div>
   );
 };
