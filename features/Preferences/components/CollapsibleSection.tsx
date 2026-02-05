@@ -88,7 +88,7 @@ const CollapsibleSection = ({
           className={clsx(
             'transition-transform duration-300 ease-out',
             'transition-colors delay-200 duration-300',
-            'text-(--secondary-color)',
+            'text-(--main-color)',
             'max-md:group-active:text-(--main-color)',
             'md:group-hover:text-(--main-color)',
             !isOpen && 'rotate-180',

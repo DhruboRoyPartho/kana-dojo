@@ -153,7 +153,7 @@ const Themes = () => {
             themeSet.name === 'Premium (experimental, unstable)' ? (
               <span>
                 <span className='text-(--main-color)'>Premium</span>
-                <span className='text-(--secondary-color)'>
+                <span className='ml-1 text-(--secondary-color)'>
                   (experimental, unstable)
                 </span>
               </span>
