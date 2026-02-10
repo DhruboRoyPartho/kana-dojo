@@ -271,19 +271,23 @@
   },
   {
     "id": 55,
-    "text": "\"〜ば〜ほど\" means \"the more... the more...\"."
+    "text": "\"〜ば〜ほど\" means \"the more... the more...\".",
+    "completed": true
   },
   {
     "id": 56,
-    "text": "\"〜に違いない\" expresses strong conviction: \"must be\"."
+    "text": "\"〜に違いない\" expresses strong conviction: \"must be\".",
+    "completed": true
   },
   {
     "id": 57,
-    "text": "\"〜わけがない\" means \"there is no way that...\"."
+    "text": "\"〜わけがない\" means \"there is no way that...\".",
+    "completed": true
   },
   {
     "id": 58,
-    "text": "\"〜ようにする\" means \"make an effort to...\"."
+    "text": "\"〜ようにする\" means \"make an effort to...\".",
+    "issued": true
   },
   {
     "id": 59,
