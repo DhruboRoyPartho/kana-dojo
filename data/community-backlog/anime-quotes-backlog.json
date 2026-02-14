@@ -466,7 +466,7 @@
     "english": "I won't run away anymore!",
     "anime": "Hunter x Hunter",
     "character": "Gon Freecss",
-    "completed": false,
+    "completed": true,
     "issued": false
   },
   {
@@ -476,7 +476,7 @@
     "english": "I mustn't run away!",
     "anime": "Neon Genesis Evangelion",
     "character": "Shinji Ikari",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
